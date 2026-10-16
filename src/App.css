@@ -1,0 +1,96 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fff0f5, #f3e8ff);
+  color: #4b365f;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.counter-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px 28px;
+  background: white;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(120, 80, 140, 0.15);
+}
+
+.counter-card h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  color: #e84393 !important;
+}
+
+.subtitle {
+  margin-bottom: 28px;
+  color: #9b8ba8;
+  font-size: 14px;
+}
+
+.counter-number {
+  margin: 20px 0 28px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #e84393 !important;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-add {
+  background: #d8f3dc;
+  color: #287a43;
+}
+
+.btn-minus {
+  background: #ffe0e9;
+  color: #b83260;
+}
+
+.btn-reset {
+  background: #eee0ff;
+  color: #7b2cbf;
+}
+
+.button-group button:hover {
+  transform: translateY(-2px);
+  filter: brightness(0.97);
+}
+
+.footer-text {
+  margin-top: 28px;
+  font-size: 12px;
+  color: #aa9bb5;
+}
